@@ -4,12 +4,12 @@
 
 ## 2.1 Instalación y Conceptos básicos
 
-Vamos a instalar [Ubuntu 20.04 ](https://ubuntu.com/download/desktop) en una máquina virtual. 
+Vamos a instalar [Ubuntu 22.04 ](https://ubuntu.com/download/desktop) en una máquina virtual. 
 El software de virtualización que vamos a usar es [VirtualBox](https://www.virtualbox.com).
 
-Realizaremos el proceso de instalación en clase utilizando las guias de instalación proporcionadas: 
+Realizaremos el proceso de instalación en clase utilizando las guías de instalación proporcionadas en "Tema2 Instalación": 
 - **"Intalación de virtualBox"** 
-- **"Instalación de Ubuntu 20.04"**
+- **"Instalación de Ubuntu 22.04"**
 
 Cuando la instalación termine, accederemos al sistema mediante nuestras credenciales de acceso (**usuario y contraseña**)y si las credenciales son correctas, el sistema nos proporcionará una ***shell***. 
 
