@@ -944,7 +944,7 @@ man rm
 - **Comprimir**: Es reducir el tamaño de un fichero a través del uso de un algoritmo de compresión.
 
 
-####Empaquetar (.tar)
+#### Empaquetar (.tar)
 Con el comando **tar**, (tape archive) se pueden empaquetar y desempaquetar archivos. Para que haya compresión es necesario utilizarlo en combinación con programas tales como gzip o bzip. Este comando se puede utilizar con múltiples opciones, aunque hay algunas que quizá son importantes recordar.
 
 | Opción    | Significado                                        |
