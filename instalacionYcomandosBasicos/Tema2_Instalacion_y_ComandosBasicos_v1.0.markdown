@@ -765,6 +765,8 @@ Los **_wildcards_** (o comodines) nos permiten seleccionar nombres de fichero ba
 
 - **Nota: POSIX** (Portable Operating System Interface) define un conjunto de estándares especificados por el IEEE para varias interfaces de herramientas, comandos y API para garantizar la compatibilidad entre sistemas operativos.
 
+.
+
 Estas **Clases de caracteres POSIX** son las siguientes:
 
 
