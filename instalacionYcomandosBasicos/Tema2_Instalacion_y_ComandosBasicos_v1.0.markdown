@@ -11,11 +11,11 @@ Realizaremos el proceso de instalación en clase utilizando las guías de instal
 - **"Intalación de virtualBox"** 
 - **"Instalación de Ubuntu 22.04"**
 
-Cuando la instalación termine, accederemos al sistema mediante nuestras credenciales de acceso (**usuario y contraseña**)y si las credenciales son correctas, el sistema nos proporcionará una ***shell***. 
+Cuando la instalación termine, accederemos al sistema mediante nuestras credenciales de acceso (**usuario y contraseña**) y si las credenciales son correctas, el sistema nos proporcionará una ***shell***. 
 
 ### Shell o interprete de comandos
 
-Una ***shell*** es un *intérprete de comandos*, es decir, es un programa que permite a los usuarios interactuar con el sistema operativo, procesando las órdenes que se le indican. 
+Una ***shell*** es un *intérprete de comandos*, es decir, es un programa que permite a los usuarios interactuar con el Sistema Operativo, procesando las órdenes que se le indican. 
 
 La shell puede interpretar comandos internos (corresponden en realidad a órdenes interpretadas por la propio shell) o comandos externos (correspondientes a ficheros ejecutables externos al shell). Además, las shells ofrecen otros elementos para mejorar su funcionalidad, tales como variables, funciones o estructuras de control. El conjunto de comandos internos y elementos disponibles, así como su sintaxis, dependerá del shell concreto empleado.
 
@@ -37,9 +37,9 @@ La shell **puede utilizarse desde la línea de comandos**, basada en el ***promp
 
 Un prompt puede tener un aspecto como este:
 
-`elenagg@localhost ~ $ `
+`rpalacios@localhost ~ $ `
 
-    - *elenagg*: es el nombre del usuario
+    - *rpalacios*: es el nombre del usuario
     - *localhost*: es el nombre de la máquina.
     - *~* : hace referencia al directorio de trabajo del usuario (también llmado "home"), es decir, el directorio en el que nos encontramos.
     - *$*: es el final del prompt. A partir de aquí escribiremos nuestros comandos. Para el usuario `root`, el símbolo es `#` en lugar de $.
@@ -68,7 +68,7 @@ En los SO basado en UNIX, y por tanto en Linux, todo el sistema de ficheros **pa
 Es el origen de todo el sistema de ficheros y sólo existe una. Para organizar los ficheros adecuadamente, el sistema proporciona lo que llamaremos directorios (o carpetas), dentro de las cuales podemos poner archivos y más directorios. De este modo conseguimos una organización jerárquica en modo de árblo como la que vemos en la siguiente figura:
 
 
-![Arbol de Directorios](C:/Users/Elena/OneDrive%20-%20U-tad/Compartida%20-%20Lab%20Redes%20y%20SSOO/Temario%20asignatura/Arbol_de_Directorios.jpg)
+![Arbol de Directorios](C:/Users/rpalacios/OneDrive%20-%20U-tad/Compartida%20-%20Lab%20Redes%20y%20SSOO/Temario%20asignatura/Arbol_de_Directorios.jpg)
 
 
 
@@ -87,14 +87,14 @@ En todos los directorios **existe una entrada “.” y otra “..”**
 ```bash
 ls
 
-elenagg@elena-VirtualBoxUb1:~$ ls
+rpalacios@rpalacios-VirtualBoxUb1:~$ ls
 Descargas   Escritorio  Música      Público  Vídeos
 Documentos  Imágenes    Plantillas  snap
 
 # Y para ver ficheros ocultos:
 ls -a
 
-elenagg@elena-VirtualBoxUb1:~$ ls -a
+rpalacios@rpalacios-VirtualBoxUb1:~$ ls -a
 .              .config     .local      .sudo_as_admin_successful
 ..             Descargas   Música      .vboxclient-clipboard.pid
 .bash_history  Documentos  Plantillas  .vboxclient-display.pid
@@ -107,24 +107,24 @@ elenagg@elena-VirtualBoxUb1:~$ ls -a
 Veamos otro ejemplo:
 
 ```bash
-ls -l /home/elenagg
+ls -l /home/rpalacios
 
 total 40
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Descargas
--rw-rw-r-- 1 elenagg elenagg    0 sep 21 18:55 doc_elena
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Documentos
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Escritorio
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Imágenes
--rw-rw-r-- 1 elenagg elenagg    0 sep 21 18:56 lab_SSOO
-lrwxrwxrwx 1 elenagg elenagg   14 sep 21 18:55 manual.txt -> muydificil.txt
-drwxrwxr-x 2 elenagg elenagg 4096 sep 21 18:54 MisDocumentos
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Música
--rw-rw-r-- 1 elenagg elenagg    0 sep 21 18:53 paraleer.txt
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Plantillas
--rw-rw-r-- 1 elenagg elenagg    0 sep 21 18:52 prueba
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Público
-drwxr-xr-x 3 elenagg elenagg 4096 sep  9 18:35 snap
-drwxr-xr-x 2 elenagg elenagg 4096 sep  8 19:48 Vídeos
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Descargas
+-rw-rw-r-- 1 rpalacios rpalacios    0 sep 21 18:55 doc_rpalacios
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Documentos
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Escritorio
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Imágenes
+-rw-rw-r-- 1 rpalacios rpalacios    0 sep 21 18:56 lab_SSOO
+lrwxrwxrwx 1 rpalacios rpalacios   14 sep 21 18:55 manual.txt -> muydificil.txt
+drwxrwxr-x 2 rpalacios rpalacios 4096 sep 21 18:54 MisDocumentos
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Música
+-rw-rw-r-- 1 rpalacios rpalacios    0 sep 21 18:53 paraleer.txt
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Plantillas
+-rw-rw-r-- 1 rpalacios rpalacios    0 sep 21 18:52 prueba
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Público
+drwxr-xr-x 3 rpalacios rpalacios 4096 sep  9 18:35 snap
+drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Vídeos
 
 
 ___________ ___ ____  _____   ____ ____________ ______________
@@ -198,7 +198,7 @@ Para recuperar un comando del Historial de comandos --> En el terminal, pulsar l
 ```bash
 pwd
 
-/home/elenagg
+/home/rpalacios
 
 ```
 
@@ -256,12 +256,12 @@ cd ..
 
 Subir dos niveles en la jerarquía de directorios mediante cd ../ ../
 ````
-emilio@Ubuntudesk01:~$ pwd
-/home/emilio
-emilio@Ubuntudesk01:~$ cd ../../
-emilio@Ubuntudesk01:/$ pwd
+rpalacios@Ubuntudesk01:~$ pwd
+/home/rpalacios
+rpalacios@Ubuntudesk01:~$ cd ../../
+rpalacios@Ubuntudesk01:/$ pwd
 /
-emilio@Ubuntudesk01:/$ 
+rpalacios@Ubuntudesk01:/$ 
 ````
 
 ### Tipos de Ficheros 
@@ -324,9 +324,9 @@ En Linux, **las variables de entorno permiten al sistema pasar datos a los progr
 `printenv` comando linux que muestra el valor de todas las variables de entorno (en el ejemplo siguiente no se muestran todas).
 
 ```
-elenagg@elena-VirtualBoxUb1:~$ printenv
+rpalacios@rpalacios-VirtualBoxUb1:~$ printenv
 SHELL=/bin/bash
-SESSION_MANAGER=local/elena-VirtualBoxUb1:@/tmp/.ICE-unix/1239,unix/elena-VirtualBoxUb1:/tmp/.ICE-unix/1239
+SESSION_MANAGER=local/rpalacios-VirtualBoxUb1:@/tmp/.ICE-unix/1239,unix/rpalacios-VirtualBoxUb1:/tmp/.ICE-unix/1239
 QT_ACCESSIBILITY=1
 COLORTERM=truecolor
 XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
@@ -340,16 +340,16 @@ XMODIFIERS=@im=ibus
 DESKTOP_SESSION=ubuntu
 SSH_AGENT_PID=1116
 GTK_MODULES=gail:atk-bridge
-PWD=/home/elenagg
-LOGNAME=elenagg
+PWD=/home/rpalacios
+LOGNAME=rpalacios
 XDG_SESSION_DESKTOP=ubuntu
 XDG_SESSION_TYPE=x11
 GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
 XAUTHORITY=/run/user/1000/gdm/Xauthority
 GJS_DEBUG_TOPICS=JS ERROR;JS LOG
 WINDOWPATH=2
-HOME=/home/elenagg
-USERNAME=elenagg
+HOME=/home/rpalacios
+USERNAME=rpalacios
 IM_CONFIG_PHASE=1
 LANG=es_ES.UTF-8
 ```
@@ -357,7 +357,7 @@ LANG=es_ES.UTF-8
 Cada línea contiene el nombre de la variable de entorno seguido de = y el valor. Por ejemplo:
 
 ```bash
-HOME=/home/elenagg
+HOME=/home/rpalacios
 ```
 
 ### Comandos para ver el valor de una variable de entorno
@@ -367,11 +367,11 @@ Para ver el valor de una variable de entorno podemor usar `printenv` pasando el 
 printenv HOME
 echo $HOME
 
-elenagg@elena-VirtualBoxUb1:~$ printenv HOME
-/home/elenagg
-elenagg@elena-VirtualBoxUb1:~$ echo $HOME
-/home/elenagg
-elenagg@elena-VirtualBoxUb1:~$ 
+rpalacios@rpalacios-VirtualBoxUb1:~$ printenv HOME
+/home/rpalacios
+rpalacios@rpalacios-VirtualBoxUb1:~$ echo $HOME
+/home/rpalacios
+rpalacios@rpalacios-VirtualBoxUb1:~$ 
 
 ```
 
@@ -536,7 +536,7 @@ pwd
 ```
 
 ```bash
-cd /home/elenagg
+cd /home/rpalacios
 pwd
 man cd
 ```
@@ -740,7 +740,7 @@ cd softlinks
 ln -s ../document.txt
 
 # Crea un enlace simbólico(arg2) al fichero que se pasa en como arg1
-ln -s /home/elenagg/document.txt ./my_document.txt
+ln -s /home/rpalacios/document.txt ./my_document.txt
 
 
 # NOTA: no se pueden usar rutas relativas en el segundo argumento. Como norma general y para no cometer errores se aconseja ejecutar el comando ln -s siempre en el directorio en el que se quiere crear el enlace. 
@@ -915,20 +915,20 @@ rm document_0?.txt
 ls -l
 
 # Borrar directorios:
-mkdir elena
+mkdir rpalacios
 
 # Para directorios vacios:
-rmdir elena
+rmdir rpalacios
 
-mkdir elena
-touch elena/datos.txt
+mkdir rpalacios
+touch rpalacios/datos.txt
 
-ls -l elena
+ls -l rpalacios
 
 # Para directorios que tienen ficheros debemos usar -r:
-rm -r elena
+rm -r rpalacios
 
-ls -l elena
+ls -l rpalacios
 ls -l
 
 # ¡CUIDADO! Cuando borramos algo con rm, se borra para siempre.
