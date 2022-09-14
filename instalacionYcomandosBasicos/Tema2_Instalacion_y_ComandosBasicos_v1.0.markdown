@@ -580,11 +580,11 @@ cd ~
 # Probemos el siguiente comando
 rmdir projects/games
 
-#rmdir SOLO FUNCIONA SI EL DIRECTORIO ESTÁ VACIO
+# rmdir SOLO FUNCIONA SI EL DIRECTORIO ESTÁ VACIO
 rmdir projects/games/counter_strike
 rmdir projects/games
 
-#Para borrar directorios que no estén vacios se utiliza `rm` 
+# Para borrar directorios que no estén vacios se utiliza `rm` 
 mkdir projects/games/counter_strike
 rm -rf projects
 
@@ -607,7 +607,7 @@ En la mayoría de distribuciones basadas en GNU/Linux se siguen unas recomendaci
 |/sbin/        | Aquí se guardan solo los ejecutables del sistema que debe ejecutar únicamente el usuario root. |
 |/etc/         | Archivos de configuración de las aplicaciones y servicios instalados en el sistema. |
 |/lib/         | Librerías esenciales para el núcleo del sistema y módulos del mismo. |
-|/dev/         | Este directorio no existe realmente en el disco duro, contiene todos los dispositivos detectados desde que el sistema esta arrancado.  |
+|/dev/         | Este directorio no existe realmente en el disco duro, contiene todos los dispositivos detectados desde que el sistema está arrancado.  |
 |/mnt/ y /media/ | Puntos de montaje temporal para dispositivos. |
 |/proc/        | No existe realmente en el disco y se monta desde la memoria RAM. Contiene información del HW donde esta corriendo el sistema e información sobre los procesos y variables del núcleo del sistema. |
 |/opt/  |Directorio en el que se pueden instalar aplicaciones. |
@@ -687,7 +687,7 @@ man head
 cd
 
 # Imprimir un texto en la salida estándar (típicamente la consola):
-- opción -e: habilita la interpretación de los saltos backslah '\'
+# opción -e: habilita la interpretación de los saltos backslah '\'
 
 echo "aprendemos Linux!"
 echo "saltos de línea \n\n\n"
