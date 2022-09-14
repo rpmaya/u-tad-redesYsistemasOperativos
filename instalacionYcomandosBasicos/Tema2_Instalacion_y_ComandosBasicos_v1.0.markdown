@@ -715,7 +715,7 @@ Este mecanismo nos permite acceder a carpetas o archivos de forma más rápida y
 
 
 ```bash
-#Vemamos si tenemos algun enlace simbólico:
+# Veamos si tenemos algun enlace simbólico:
 ls -l /boot
 
 ls -l /lib
@@ -754,7 +754,7 @@ man ln
 ```
 
 ### Wildcards 
-Los **_wildcards_** (o comodínes) nos permiten seleccionar nombres de fichero basado en patrones de caracteres.
+Los **_wildcards_** (o comodines) nos permiten seleccionar nombres de fichero basado en patrones de caracteres.
 
 | Wildcard       | Significado                                        |
 | :------------- | :------------------------------------------------ |
@@ -763,9 +763,7 @@ Los **_wildcards_** (o comodínes) nos permiten seleccionar nombres de fichero b
 |  [caracteres]  |  Selecciona cualquier carácter que esté incluido en un conjunto de caracteres específicos.<br>Pueden expresarse como una *clase de caracteres POSIX* |
 |  [!caracteres] |  Selecciona cualquier carácter que **NO** esté incluido en un conjunto de caracteres específicos. También pueden expresarse como una *clase de caracteres POSIX* |
 
-- **Nota: POSIX** (Portable Operating System Interface) define un conjunto de estándares esepcificados por el IEEE para varias interfaces de herramientas, comandos y API para garantizar la compatibilidad entre sistemas operativos.
-
-.
+- **Nota: POSIX** (Portable Operating System Interface) define un conjunto de estándares especificados por el IEEE para varias interfaces de herramientas, comandos y API para garantizar la compatibilidad entre sistemas operativos.
 
 Estas **Clases de caracteres POSIX** son las siguientes:
 
