@@ -1055,10 +1055,10 @@ ls -l
 
 ### Comandos para comprimir `zip`, `gzip`, `bzip2`, `tar` 
 #### zip
-Algunas veces es necesario que el archivo sea descomprimido en otros sistemas operativos, en ese caso es útil usar el formato zip que tiene mayor compatibilidad (el ás usado en Windows)
+Algunas veces es necesario que el archivo sea descomprimido en otros sistemas operativos, en ese caso es útil usar el formato zip que tiene mayor compatibilidad (el más usado en Windows)
 
 ```bash
-#Sintaxis: zip <archivo comprimdo> <archivo(s) a comprmir>
+# Sintaxis: zip <archivo comprimdo> <archivo(s) a comprimir>
 zip docus.zip doc[[:digit:]].txt
 ls -l
 ```
@@ -1067,9 +1067,9 @@ ls -l
 Es uno de los métodos más utilizados para comprimir en Linux, pero puede utilizarse también en sistemas Windows y macOS.
 
 ```bash
-#Sintaxis: gzip [opciones] <archivo(s) a comprimir>
-#La opción -k mantiene el fichero original 
-#gzip doc[[:digit:]].txt --> si se le pasan varios ficheros comprime cada uno de los archivos
+# Sintaxis: gzip [opciones] <archivo(s) a comprimir>
+# La opción -k mantiene el fichero original 
+# gzip doc[[:digit:]].txt --> si se le pasan varios ficheros comprime cada uno de los archivos
 
 gzip big_doc_to_gzip.txt
 
@@ -1083,9 +1083,9 @@ ls -l
 Permite comprimir archivos en Linux sin pérdidas con una gran calidad. Los archivos empaquetados con bzip2 obtienen la extensión .bz2.
 
 ```bash
-#Sintaxis: bzip2 [opciones] <archivo(s) a comprimir>
-#La opción -k mantiene los archivos despues del proceso de compresión 
-#bzip2 doc[[:digit:]].txt --> si se le pasan varios ficheros comprime cada uno de los archivos
+# Sintaxis: bzip2 [opciones] <archivo(s) a comprimir>
+# La opción -k mantiene los archivos despues del proceso de compresión 
+# bzip2 doc[[:digit:]].txt --> si se le pasan varios ficheros comprime cada uno de los archivos
 
 bzip2 -k doc[[:digit:]].txt
 # Vemos que se ha generado un fichero .bz2 por cada archivo y que se han mantenido los originales
@@ -1098,7 +1098,7 @@ ls -l
 ```
 
 
-####tar
+#### tar
 ```bash
 # El comando tar se ha visto antes, pero se deja aquí una referencia rápida.
 
@@ -1141,9 +1141,9 @@ bunzip2 big_doc_to_bzip2.txt.bz2
 ls -l
 ```
 
-####tar 
+#### tar 
 ```bash
-# El comando tar para descomprimir también ha visto antes, pero se deja aquí una referencia rápida.
+# El comando tar para descomprimir también se ha visto antes, pero se deja aquí una referencia rápida.
 
 # tar usando gunzip 
 tar zxvf docus.tgz 
