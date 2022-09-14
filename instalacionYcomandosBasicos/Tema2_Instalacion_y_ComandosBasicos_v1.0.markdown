@@ -556,7 +556,7 @@ mkdir -p projects/games/super_pang
 mkdir -p projects/games/counter_strike
 ls -laR projects
 
-Practiquemos:
+#Practiquemos:
 
 cd projects/games/
 pwd
