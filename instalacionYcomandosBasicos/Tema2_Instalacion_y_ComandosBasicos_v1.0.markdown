@@ -973,7 +973,7 @@ tar cvf mis_ficheros.tar file*.txt
 ls -l
 ```
 
-####Comprimir (.tgz, .tar.gz, .bz2)
+#### Comprimir (.tgz, .tar.gz, .bz2)
 
  
 Si lo que queremos además es comprimir archivos tenemos que utilizar `**tar**` con un método de compresión (gzip o bzip)
