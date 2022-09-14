@@ -375,7 +375,7 @@ rpalacios@rpalacios-VirtualBoxUb1:~$
 
 ```
 
-### Cómo crear una variale de entorno
+### Cómo crear una variable de entorno
 La sintaxis básica de este comando se vería así:
 
 ```bash
@@ -496,7 +496,7 @@ man man
 
 ## 2.5 Más sobre Ficheros y Directorios
 
-###Directorios
+### Directorios
 
 Un directorio en linux es un fichero especial, que puede contener otros ficheros y sub-directorios.
 
