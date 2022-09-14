@@ -68,7 +68,7 @@ En los SO basado en UNIX, y por tanto en Linux, todo el sistema de ficheros **pa
 Es el origen de todo el sistema de ficheros y sólo existe una. Para organizar los ficheros adecuadamente, el sistema proporciona lo que llamaremos directorios (o carpetas), dentro de las cuales podemos poner archivos y más directorios. De este modo conseguimos una organización jerárquica en modo de árblo como la que vemos en la siguiente figura:
 
 
-![Arbol de Directorios](C:/Users/rpalacios/OneDrive%20-%20U-tad/Compartida%20-%20Lab%20Redes%20y%20SSOO/Temario%20asignatura/Arbol_de_Directorios.jpg)
+![Arbol de Directorios](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/img/Arbol_de_Directorios.jpg)
 
 
 
