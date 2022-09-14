@@ -523,14 +523,14 @@ De **forma relativa significa que partiremos del directorio donde estamos** en e
 **Por ejemplo:** si estamos en el directorio /usr/bin/ y queremos ir al /etc/, deberíamos introducir el siguiente comando: 
 
 ```
-Forma relativa: 
+#Forma relativa: 
 cd ../../etc
 los dos primeros puntos indican /usr/ y los siguientes la raíz “/” del sistema, a partir de la cual ya podemos acceder a /etc/
  
-Forma absoluta: 
+#Forma absoluta: 
 cd /etc
 
-Para saber en qué directorio estamos, podemos utilizar el comando 
+#Para saber en qué directorio estamos, podemos utilizar el comando 
 pwd
 
 ```
