@@ -428,7 +428,7 @@ PATH="$PATH:/home/nombreusuario/Scripts:/home/nombreusuario/Compilados”
 De esa manera **ambos directorios se agregan a su variable PATH. Sin embargo, estos cambios no son permanentes y la próxima vez que el usuario acceda a su cuenta todas las modificaciones se habrán perdido**.
 
 
-Para que los cambios **sean permanentes es necesario editar un par de archivos: ~/.bash_profile y ~/.bashsrc**. Son los ficheros de configuración de `bash`y los veremos más adelante. 
+Para que los cambios **sean permanentes es necesario editar un par de archivos: ~/.profile y ~/.bashsrc**. Son los ficheros de configuración de `bash`y los veremos más adelante. 
 
  
 
