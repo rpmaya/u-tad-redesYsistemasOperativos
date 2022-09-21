@@ -37,12 +37,12 @@ La shell **puede utilizarse desde la línea de comandos**, basada en el ***promp
 
 Un prompt puede tener un aspecto como este:
 
-`rpalacios@localhost ~ $ `
+`rpalacios@localhost ~ $`
 
-    - **rpalacios**: es el nombre del usuario
-    - **localhost**: es el nombre de la máquina.
-    - **~** : hace referencia al directorio de trabajo del usuario (también llamado "home"), es decir, el directorio en el que nos encontramos por defecto.
-    - **$**: es el final del prompt. A partir de aquí escribiremos nuestros comandos. Para el usuario **root**, el símbolo es __#__ en lugar de __$__.
+- **rpalacios**: es el nombre del usuario
+- **localhost**: es el nombre de la máquina.
+- **~** : hace referencia al directorio de trabajo del usuario (también llamado "home"), es decir, el directorio en el que nos encontramos por defecto.
+- **$**: es el final del prompt. A partir de aquí escribiremos nuestros comandos. Para el usuario **root**, el símbolo es __#__ en lugar de __$__.
 
 Si queremos terminar nuestra sesión ejecutamos:
 
