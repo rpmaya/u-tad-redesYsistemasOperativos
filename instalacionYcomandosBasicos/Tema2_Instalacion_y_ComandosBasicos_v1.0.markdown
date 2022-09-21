@@ -125,7 +125,6 @@ drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Vídeos
 
 __________ __ ________ _________ ____ ____________ ______________
 
-    |       |    |     |       |       |              |
 	|       |    |     |       |       |              -> Nombre
 	|       |    |     |       |       |
 	|       |    |     |       |       -> Fecha de modificación
