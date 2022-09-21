@@ -125,19 +125,19 @@ drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Vídeos
 
 __________ __ ________ _________ ____ ____________ ______________
 
- |       |    |     |       |       |              |-> Nombre
- |       |    |     |       |       |
- |       |    |     |       |       -> Fecha de modificación
- |       |    |     |       |
- |       |    |     |       -> Tamaño en bytes
- |       |    |     |
- |       |    |     -> Nombre del grupo con permisos sobre el fichero
- |       |    |
- |       |    -> Nombre del Usuario propietario del fichero
- |       |
- |       -> Número de enlaces duros al archivo/directorio
- |
- -> Permisos del fichero:
+   |       |    |     |       |       |              |-> Nombre
+   |       |    |     |       |       |
+   |       |    |     |       |       -> Fecha de modificación
+   |       |    |     |       |
+   |       |    |     |       -> Tamaño en bytes
+   |       |    |     |
+   |       |    |     -> Nombre del grupo con permisos sobre el fichero
+   |       |    |
+   |       |    -> Nombre del Usuario propietario del fichero
+   |       |
+   |       -> Número de enlaces duros al archivo/directorio
+   |
+   -> Permisos del fichero:
 	   - Tipo de fichero (regular, directorio, enlace, etc).
 	   - Permisos del propietario ( r w x )
 	   - Permisos del grupo ( r - x )
