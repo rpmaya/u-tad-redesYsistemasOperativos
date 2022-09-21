@@ -123,7 +123,8 @@ drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Público
 drwxr-xr-x 3 rpalacios rpalacios 4096 sep  9 18:35 snap
 drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Vídeos
 
-__________ ___ _____  _______   ____ ____________ ______________
+__________ __ ________ _________ ____ ____________ ______________
+
     |       |    |     |       |       |              |
 	|       |    |     |       |       |              -> Nombre
 	|       |    |     |       |       |
