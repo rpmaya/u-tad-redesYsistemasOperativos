@@ -72,12 +72,11 @@ Es el origen de todo el sistema de ficheros y sólo existe una. Para organizar l
 
 
 
-Cuando entramos en el sistema, el login nos sitúa en nuestro directorio home, **este directorio se referencia con el carácter "~".** 
+Cuando entramos en el sistema, el __login__ nos sitúa en nuestro directorio home, **este directorio se referencia con el carácter "~".** 
 
-En todos los directorios **existe una entrada “.” y otra “..”** 
+En todos los directorios **existe una entrada "." y otra ".."** 
 
-**El punto "." es la referencia al directorio actual**, mientras que **los dos puntos seguidos hacen referencia al directorio inmediatamente superior** (en el árbol de jerarquías).  Cuando estamos situados en la raíz del sistema de ficheros, la entrada “..” no existirá porque nos encontramos en el nivel superior. 
-
+**El punto "." es la referencia al directorio actual**, mientras que **los dos puntos seguidos hacen referencia al directorio inmediatamente superior** (en el árbol de jerarquías). Cuando estamos situados en la raíz del sistema de ficheros, la entrada ".." no existirá porque nos encontramos en el nivel superior. 
 
 
 ### Nuestros primeros comandos
@@ -85,8 +84,6 @@ En todos los directorios **existe una entrada “.” y otra “..”**
 #### ls: Veamos cómo ver el contenido de un directorio:
 
 ```bash
-ls
-
 rpalacios@rpalacios-VirtualBoxUb1:~$ ls
 Descargas   Escritorio  Música      Público  Vídeos
 Documentos  Imágenes    Plantillas  snap
@@ -126,8 +123,7 @@ drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Público
 drwxr-xr-x 3 rpalacios rpalacios 4096 sep  9 18:35 snap
 drwxr-xr-x 2 rpalacios rpalacios 4096 sep  8 19:48 Vídeos
 
-
-___________ ___ ____  _____   ____ ____________ ______________
+__________ ___ ____  _____   ____ ____________ ______________
      |       |    |     |       |       |              |
 	 |       |    |     |       |       |              -> Nombre
 	 |       |    |     |       |       |
