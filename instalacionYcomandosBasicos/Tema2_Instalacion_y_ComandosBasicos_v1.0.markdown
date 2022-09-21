@@ -5,7 +5,7 @@
 ## 2.1 Instalación y Conceptos básicos
 
 Vamos a instalar [Ubuntu 22.04 ](https://ubuntu.com/download/desktop) en una máquina virtual. 
-El software de virtualización que vamos a usar es [VirtualBox](https://www.virtualbox.com).
+El software de virtualización que vamos a usar es [VirtualBox](https://www.virtualbox.org).
 
 Realizaremos el proceso de instalación en clase utilizando las guías de instalación proporcionadas en "Tema2 Instalación": 
 - **"Intalación de virtualBox"** 
