@@ -29,7 +29,7 @@ Bourne Shell **ha llegado a convertirse en un estándar de facto** de tal modo q
 En el caso concreto de **los S.O.’s Linux, no existe ninguna implementación del Bourne Shell, manteniéndose la entrada  `/bin/sh` (así como su manual man sh) como un enlace simbólico a una implementación de shell compatible**.
 
 ### bash
-bash: fue desarrollado para ser un superconjunto de la funcionalidad del Bourne Shell (en la que incluye funcionalidades de ksh y csh), **siendo el intérprete de comandos asignado por defecto a los usuarios en las distribuciones de Linux**, por lo que es el shell empleado en la mayoría de las consolas de comandos de Linux. Se caracteriza por una gran funcionalidad adicional a la del Bourne Shell. Como ficheros personales de los usuarios emplea `$HOME/.bashrc` y `$HOME/.bash_profile`.
+bash: fue desarrollado para ser un superconjunto de la funcionalidad del Bourne Shell (en la que incluye funcionalidades de ksh y csh), **siendo el intérprete de comandos asignado por defecto a los usuarios en las distribuciones de Linux**, por lo que es el shell empleado en la mayoría de las consolas de comandos de Linux. Se caracteriza por una gran funcionalidad adicional a la del Bourne Shell. Como ficheros personales de los usuarios emplea `$HOME/.bashrc` y `$HOME/.profile`.
 
 
 ### Prompt
@@ -39,10 +39,10 @@ Un prompt puede tener un aspecto como este:
 
 `rpalacios@localhost ~ $ `
 
-    - *rpalacios*: es el nombre del usuario
-    - *localhost*: es el nombre de la máquina.
-    - *~* : hace referencia al directorio de trabajo del usuario (también llmado "home"), es decir, el directorio en el que nos encontramos.
-    - *$*: es el final del prompt. A partir de aquí escribiremos nuestros comandos. Para el usuario `root`, el símbolo es `#` en lugar de $.
+    - **rpalacios**: es el nombre del usuario
+    - **localhost**: es el nombre de la máquina.
+    - **~** : hace referencia al directorio de trabajo del usuario (también llamado "home"), es decir, el directorio en el que nos encontramos por defecto.
+    - **$**: es el final del prompt. A partir de aquí escribiremos nuestros comandos. Para el usuario **root**, el símbolo es __#__ en lugar de __$__.
 
 Si queremos terminar nuestra sesión ejecutamos:
 
