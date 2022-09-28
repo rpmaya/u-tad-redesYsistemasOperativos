@@ -21,42 +21,7 @@ cd ../../
 ls -a
 ls -l
 ls -a
-ls -al
-```
-
-El punto "." es la referencia al directorio actual, mientras que los dos puntos
-seguidos hacen referencia al directorio inmediatamente superior (en el árbol
-de jerarquías).
-
-	lectura / escritura / ejecución | para los permisos
-	usuario / grupo / otros | para los grupos
-	
-	Directorio .
-	La primera "d" nos ndica que es un directorio, que el usuario  y el grupo tienen todos los permisos, y que  
-	otros solo los de lectura y ejecucion.
-
-    Directorio ..
-    La primera "d" nos ndica que es un directorio, que el usuario tiene todos los permisos, que el grupo solo tiene los permisos de lectura y ejecucion y 
-	otros también solo los de lectura y ejecucion.
-
-    Archivo Mis_Documentos
-	La primera "d" nos ndica que es un directorio, que el usuario  y el grupo tienen todos los permisos, y que  
-	otros solo los de lectura y ejecucion.
-
-	A continuación:
-			->Nombre
-| | | | | |
-| | | | | -> Fecha de modificación
-| | | | |
-| | | | -> Tamaño en bytes
-| | | |
-| | | -> Nombre del grupo con permisos sobre el fichero
-| | |
-| | -> Nombre del Usuario propietario del fichero
-| |
-| -> Número de enlaces duros al archivo/directorio
-
-```bash		
+ls -al	
 cd ~
 mkdir MisFicheros
 cd MisFicheros
