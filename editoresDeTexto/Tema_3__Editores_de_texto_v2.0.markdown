@@ -1,6 +1,6 @@
 # Tema 3 - Editores de texto (nano y vim)
 
-En este tema se ven muy brevemente los editores de texto `nano` y `vim`. Se han elegido estos dos porque son muy comunes, y suelen venir preinstalados en las distribuciones más populares (por ejemplo, *nano* es el editor por defecto en distribuciones Debian o derivadas, como Ubuntu) y vim lo es en las distribuciones Red Hut y derivadas, como CentoS. La idea de este tema es tener unas nociones básicas que nos permitan editar nuestros propios *scripts*.
+En este tema se ven muy brevemente los editores de texto `nano` y `vim`. Se han elegido estos dos porque son muy comunes, y suelen venir preinstalados en las distribuciones más populares (por ejemplo, *nano* es el editor por defecto en distribuciones Debian o derivadas, como Ubuntu) y vim lo es en las distribuciones Red Hat y derivadas, como CentoS. La idea de este tema es tener unas nociones básicas que nos permitan editar nuestros propios *scripts*.
 
 Si tecleamos vim en Ubuntu, nos devuelve un mensaje de que no está instalado, y nos indica como instalarlo !!:
 

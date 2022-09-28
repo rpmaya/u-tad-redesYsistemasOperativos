@@ -29,7 +29,7 @@ Bourne Shell **ha llegado a convertirse en un estándar de facto** de tal modo q
 En el caso concreto de **los S.O.’s Linux, no existe ninguna implementación del Bourne Shell, manteniéndose la entrada  `/bin/sh` (así como su manual man sh) como un enlace simbólico a una implementación de shell compatible**.
 
 ### bash
-bash: fue desarrollado para ser un superconjunto de la funcionalidad del Bourne Shell (en la que incluye funcionalidades de ksh y csh), **siendo el intérprete de comandos asignado por defecto a los usuarios en las distribuciones de Linux**, por lo que es el shell empleado en la mayoría de las consolas de comandos de Linux. Se caracteriza por una gran funcionalidad adicional a la del Bourne Shell. Como ficheros personales de los usuarios emplea `$HOME/.bashrc` y `$HOME/.profile`.
+bash: fue desarrollado para ser un superconjunto de la funcionalidad del Bourne Shell (en la que incluye funcionalidades de ksh y csh), **siendo el intérprete de comandos asignado por defecto a los usuarios en las distribuciones de Linux**, por lo que es el shell empleado en la mayoría de las consolas de comandos de Linux. Se caracteriza por una gran funcionalidad adicional a la del Bourne Shell. Como ficheros personales de los usuarios emplea `$HOME/.bashrc` y `$HOME/.profile` (o `$HOME/.bash_profile`).
 
 
 ### Prompt
@@ -428,7 +428,7 @@ PATH="$PATH:/home/nombreusuario/Scripts:/home/nombreusuario/Compilados”
 De esa manera **ambos directorios se agregan a su variable PATH. Sin embargo, estos cambios no son permanentes y la próxima vez que el usuario acceda a su cuenta todas las modificaciones se habrán perdido**.
 
 
-Para que los cambios **sean permanentes es necesario editar un par de archivos: ~/.profile y ~/.bashsrc**. Son los ficheros de configuración de `bash`y los veremos más adelante. 
+Para que los cambios **sean permanentes es necesario editar un par de archivos: ~/.profile (o ~/.bash_profile) y ~/.bashsrc**. Son los ficheros de configuración de `bash`y los veremos más adelante. 
 
  
 
