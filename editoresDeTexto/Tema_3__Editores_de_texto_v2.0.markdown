@@ -229,7 +229,7 @@ Ahora escribimos:
 echo "Hola Mundo" >Hola.txt
 ls
 ````
-Podemos ver como, en el listado, Hola.txt aparece en color blanco, porque no es un ejecutable y como  PCinfo_y_todos_los_ficheros_de_Linux.sh aparece en verde, al ser un fichero con permiso de ejecución. Los directorios aparecen en azul, como ya sabiamos.
+Podemos ver como, en el listado, Hola.txt aparece en color blanco, porque no es un ejecutable y como  PCinfo_y_todos_los_ficheros_de_Linux.sh aparece en verde, al ser un fichero con permiso de ejecución. Los directorios aparecen en azul, como ya sabíamos.
 
 
 #####Ejercicio en clase
