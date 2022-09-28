@@ -172,7 +172,7 @@ La estructura básica de un shell-script es la siguiente:
 #!/bin/bash                                       <-- Shebang
 # Línea de Comentario: líneas no interpretables    <-- Comentarios
 echo "Hola Mundo"                                  <-- Contenido del script
-ls -l ~          
+ls -l .          
 ```
 
 El "**shebang**" permite especificar el intérprete de comandos con el que deseamos que sea interpretado el resto del script. 
