@@ -968,6 +968,8 @@ ls y* x* z* u* q*  2>&1 | sort -r
 
 ```
 
+- Haced desde el ejercicio 9 en [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad6_Comandos_Linux_Tema5_enunciado.markdown#ejercicio-9-cut-tr-y-sort) 
+
 ### Para ampliar...
 
 **Operador "-"**
