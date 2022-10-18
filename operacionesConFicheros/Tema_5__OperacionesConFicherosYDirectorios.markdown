@@ -435,7 +435,7 @@ man awk
 info awk
 ```
 
-- Hacer hasta el ejercicio 4 en [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad6_Comandos_Linux_Tema5_enunciado.markdown)
+- Haced hasta el ejercicio 4 en [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad6_Comandos_Linux_Tema5_enunciado.markdown)
 
 ### `sed` : Edición de textos desde el terminal
 
@@ -524,6 +524,9 @@ sed 's/\s\+/,/g' fichero2.txt
 man sed
 info sed
 ```
+
+- Haced desde el ejercicio 5 al 8 en [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad6_Comandos_Linux_Tema5_enunciado.markdown#ejercicio-5-sed)
+
 
 ### `tr` : Traductor (reemplazo o eliminación de caracteres). 
 
@@ -632,7 +635,7 @@ man tr
 
 ### `cut` : Cortar textos
 
-El comando `cut` permite seleccionar y cortar campos de cada línea de un fichero o de su entrada estándar para extraer extraer las partes seleccionadas. Para diferenciar un campo de otro, usa delimitadores. El delimitador por defecto es el tabulador
+El comando `cut` permite seleccionar y cortar campos de cada línea de un fichero o de su entrada estándar para extraer las partes seleccionadas. Para diferenciar un campo de otro, usa delimitadores. El delimitador por defecto es el tabulador
 
 **Sintaxs básica**
 
@@ -654,7 +657,7 @@ cut -c 7-14 meme.txt
 
 # -f: Selecciona campos, -d: separados por un delimitador
 
-# Seleccionar campos (separados por ',')  o selecciona un rango de campos (separados por '-'),  sseparados por un delimitador (-d) (-f)
+# Seleccionar campos (separados por ',')  o selecciona un rango de campos (separados por '-'),  separados por un delimitador (-d) (-f)
 cut -d "," -f 1,2 meme.txt 
 cut -d "," -f 1,3 meme.txt 
 cut -d "," -f 1-3 meme.txt 
