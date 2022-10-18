@@ -1016,7 +1016,7 @@ temas:
 - La herramienta **tee**.
 
 ## Ejercicios
-- Haced completa la [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad7_Comandos_Linux_Tema5_enunciados.markdown)
+- Haced completa la [actividad 7](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad7_Comandos_Linux_Tema5_enunciados.markdown)
 
 ## Algunos recursos útiles
 
