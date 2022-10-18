@@ -555,10 +555,10 @@ Conjuntos de caracteres POSIX (algunos de los más comunes):
 echo "Cambiemos espacios por tabuladores" | tr [:space:] '\t' 
 
 # Como se puede ver, se pueden usar clases de caracteres POSIX
-echo "mi nombre es Elena" | tr [:lower:] [:upper:]
+echo "mi nombre es Ricardo" | tr [:lower:] [:upper:]
 
 # Y es útil, porque aunque se puede especificar un conjunto completo de caracteres, no siempre es elegante
-echo "mi nombre es Elena" | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
+echo "mi nombre es Ricardo" | tr abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ
 
 #Incluso codificar mensajes secretos
 echo "mi nombre es elena" | tr abcdefghijklmnopqrstuvwxyz   ZYWVUTSRQPONMLKJIHGFEDCBA > secreto1.txt
@@ -567,11 +567,11 @@ cat secreto1.txt | tr ZYWVUTSRQPONMLKJIHGFEDCBA abcdefghijklmnopqrstuvwxyz
 
 # Se pueden usar intervalos. En este ejemplo, además, se ejecuta tr en modo interactivo. Usar ^C para salir. 
 tr a-z A-Z 
-mi nombre es Elena 
+mi nombre es Ricardo
 
 
 # Se puede utilizar tr de fomra encadenada 
-echo "mi nombre es Elena, profesora de la asignatura" |tr ' ' z |tr a-z b-z |  tr b-z a-z | tr y ' '
+echo "mi nombre es Ricardo, profesor de la asignatura" |tr ' ' z |tr a-z b-z |  tr b-z a-z | tr y ' '
 
 # ¿Y si hay muchos espacios entre palabras?
 echo "Cambiemos  espacios   por tabuladores" | tr [:space:] '\t'

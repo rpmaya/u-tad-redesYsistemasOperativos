@@ -16,7 +16,7 @@ Antes de hacerlo abre un navegador en tu mauna y conectate a un par de páginas 
 
 ## Ejercicio 2.	(wc)
 
-Usando el comando anterior muestra ahora por pantalla **sólo el número** de conexiones en estado ESTABLISH (ESTABLCIDO).   
+Usando el comando anterior muestra ahora por pantalla **sólo el número** de conexiones en estado ESTABLISH (ESTABLECIDO).   
 
 ```bash
   
