@@ -655,6 +655,10 @@ En lugar de añadir el usuario al grupo *sudo* también se puede añadir el usua
 elenagg        ALL=(ALL)        ALL
 ```
 
+## Ejercicios
+
+- Haced completa la [Actividad 8](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/gestionUsuariosYPermisos/Actividad8_Comandos_Linux_Tema6_enunciados.markdown)
+
 ## Para ampliar
 
 El tema de gestión de usuarios da para varias asignaturas, pero tras esta
