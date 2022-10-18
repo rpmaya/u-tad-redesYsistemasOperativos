@@ -435,6 +435,8 @@ man awk
 info awk
 ```
 
+- Hacer hasta el ejercicio 4 en [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad6_Comandos_Linux_Tema5_enunciado.markdown)
+
 ### `sed` : Edición de textos desde el terminal
 
 `sed` es un editor de flujos (**s**tream **ed**itor). Al igual que *awk*
