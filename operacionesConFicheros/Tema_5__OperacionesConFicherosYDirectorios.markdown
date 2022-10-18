@@ -1015,6 +1015,9 @@ temas:
 - La herramienta **xargs**.
 - La herramienta **tee**.
 
+## Ejercicios
+- Haced completa la [actividad 6](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/operacionesConFicheros/Actividad7_Comandos_Linux_Tema5_enunciados.markdown)
+
 ## Algunos recursos útiles
 
 - [Learn Linux 101](https://developer.ibm.com/tutorials/l-lpic1-map/)
