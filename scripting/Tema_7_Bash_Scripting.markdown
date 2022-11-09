@@ -916,7 +916,8 @@ echo 'var=10;++var' | bc   # Devuelve 11
 echo 'var=10;var++' | bc   # Devuelve 10
 
 ```
-   
+
+[Ejercicios 1 y 2](https://github.com/rpmaya/u-tad-redesYsistemasOperativos/blob/main/scripting/Actividad10_Scripting_Tema7_enunciados.markdown)   
    
 .
 ## Comando test, `test`
