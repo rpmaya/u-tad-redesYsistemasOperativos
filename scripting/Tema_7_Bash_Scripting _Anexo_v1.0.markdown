@@ -1,4 +1,4 @@
-# Tema 8. Bash Scripting. Anexo I - Algunas consieraciones y consejos importantes.   
+# Tema 8. Bash Scripting. Anexo I - Algunas consideraciones y consejos importantes.   
 
 
 
