@@ -127,7 +127,7 @@ Veamos la sintaxis básica de manejo de variables.
 :--------------------------------------------------|-----------------------------| 
 | Sólo Definición                                  |  ****VAR=" "   o VAR=****   |
 | Definición y/o Inicialización/Modificación       |  ****VAR=valor****          | 
-| Expansión (Acceso a Valor)                       |  $VAR o  ${VAR}    |
+| Expansión (Acceso a Valor)                       |  ****$VAR o  ${VAR}****     |
 | Eliminación de la variable                       |  ****unset VAR****          |
 
 -
