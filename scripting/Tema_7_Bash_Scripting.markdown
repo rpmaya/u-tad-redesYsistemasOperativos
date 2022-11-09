@@ -1,4 +1,4 @@
-# Tema 8 - Bash Scripting
+# Tema 7 - Bash Scripting
 
 Los *scripts*, de forma similar a los programas, permiten automatizar tareas y agrupar comandos que, normalmente, se escribirían en la *shell*. De hecho, cualquier comando o expresión que se puede ejecutar en la *shell*, puede ser ejecutado en un *script*, y viceversa.
 
