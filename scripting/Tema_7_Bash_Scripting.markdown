@@ -820,7 +820,7 @@ echo 'scale(12345.12345)' | bc
 
 #### Y ejecutar comparaciones
 
-````bash
+```bash
 echo '2 > 1' | bc                 # Devuelve 1
 echo '1 != 2' | bc                # Devuelve 1
 echo '2 > 1 && 2 != 1' | bc       # Devuelve 1
