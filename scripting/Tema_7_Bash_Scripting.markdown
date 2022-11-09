@@ -51,7 +51,7 @@ No obstante, la utilización del shebang y la creación de este sub-proceso est�
 ```bash
 . script_ejemplo.sh
 ```
-**NOTA**: Nosotros usaremos la forma "Implcicita" de ejecución. 
+**NOTA**: Nosotros usaremos la forma "Implícita" de ejecución. 
 
 
 Vamos a preparar un script y probaremos las tres formas aprendidas de ejecucución para observar los resultados.  
@@ -121,13 +121,13 @@ Algunas variables interesantes como:
 - etc.
 
 No obstante podemos crear nuestras variables que podemos usar en nuestros scripts.
-Veamos la sintaxis báscia de manejo de variables. 
+Veamos la sintaxis básica de manejo de variables. 
 
 | Operacion                                        |  Sintaxis                   | 
 :--------------------------------------------------|-----------------------------| 
 | Sólo Definición                                  |  ****VAR=" "   o VAR=****   |
 | Definición y/o Inicialización/Modificación       |  ****VAR=valor****          | 
-| Expansión (Acceso a Valor)                       |  ****$VAR o  ${VAR}****     |
+| Expansión (Acceso a Valor)                       |  ****\$VAR o  ${VAR}****     |
 | Eliminación de la variable                       |  ****unset VAR****          |
 
 -
