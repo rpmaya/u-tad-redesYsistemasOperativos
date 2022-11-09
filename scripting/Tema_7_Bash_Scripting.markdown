@@ -20,7 +20,7 @@ También se puede usar un *shebang* para ejecutar código escrito en algún leng
 
 Conviene especificar siempre el *shebang* para cada script, y siempre debe estar en la primera línea, y escribirse tal cual, sin espacios entre sus partes.
 
-````bash
+```bash
  #!/usr/bin/python
  #!/usr/bin/node (java)
  #!/usr/bin/ruby
